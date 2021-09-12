@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Ubuntu", sans-serif;
+    background: url("https://images.unsplash.com/photo-1617565482440-9dfe7ca2b1f0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=634&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.container {
+    height: 100vh;
+    /* width: 70%; */
+    width: 100%;
+    margin: 30px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.calc {
+    box-shadow: 10px -10px 15px #fff;
+    border-radius: 28px;
+    padding: 16px;
+    display: grid;
+    grid-template-columns: repeat(4, 60px);
+}
+
+.calc .inputText {
+    grid-column: span 4;
+    height: 68px;
+    width: 230px;
+    box-shadow: inset -10px -10px 15px #adabab;
+    background-color: #ecf0f3;
+    border: none;
+    border-radius: 20px;
+    color: #333;
+    text-align: end;
+    margin: 20px 0;
+    padding: 20px;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+button {
+    box-shadow: inset -5px -5px 15px #adabab;
+    background-color: #ecf0f3;
+    border: none;
+    border-radius: 50%;
+    color: #333;
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.percent {
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.multiply {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.divide {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.decimal {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
